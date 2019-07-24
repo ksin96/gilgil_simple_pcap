@@ -121,11 +121,11 @@ int len=0;
     printf("Dport : ");
     p.print_3(&packet[36]);
     printf("TCP data locaion : ");
-    p.print_4(&packet[52]);
+    p.print_4(&packet[54]);
     printf("TCP data length : ");
     p.print_tcp_data_len(&packet[16], &packet[17], &packet[14], &packet[46]);
     printf("TCP Data : ");
-    p.print_5(&packet[52]);
+    p.print_5(&packet[54]);
 
 
 
